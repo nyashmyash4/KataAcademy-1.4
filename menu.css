@@ -234,13 +234,13 @@ body {
   z-index: -1;
 }
 
-.lang {
+.aside__lang {
   cursor: pointer;
   font-weight: 600;
   transition: all 0.3s ease-in-out;
 }
 
-.lang:hover {
+.aside__lang:hover {
   opacity: 0.6;
 }
 .aside__lang--current {
