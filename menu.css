@@ -96,8 +96,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 320px;
-  height: 100%;
-  position: fixed;
+  height: 100vh;
+  position: sticky;
   top: 0;
   left: 0;
   box-shadow: 0 0 20px -10px #1B1C21;
@@ -226,6 +226,23 @@ body {
   text-transform: uppercase;
 }
 
+.aside__radio {
+  width: 0;
+  height: 0;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.lang {
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.lang:hover {
+  opacity: 0.6;
+}
 .aside__lang--current {
   opacity: 0.6;
 }
